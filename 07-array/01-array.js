@@ -18,9 +18,9 @@ aprovados[9] = 'Rafael';
 console.log(aprovados.length);
 console.log(aprovados[8] === undefined);
 
-console.log|(aprovados);
+console.log(aprovados);
 aprovados.sort(); //altera o array mesmo, reorganiza
-console.log|(aprovados);
+console.log(aprovados);
 
 delete aprovados[1]; //simplismente atribui 'undefined' naquela posição
 console.log(aprovados[1]);
